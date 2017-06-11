@@ -10,22 +10,17 @@
 
 /**@class Lista
  * @description classe que representa uma lista de dados genérica */
-class Lista {
-
-    /**
-     * @constructor Lista
-     */
-    constructor() {
-        this._valores = [];
-    }
-
+function Lista() {
+    /**array de elementos*/
+    this._valores = [];
+    
     /*** 
      * @method add
      * @description adiciona um elemento a lista
      * @param   {Object} item
      * @returns {Number} index do elemento
      * */
-    add(item) {
+    this.add = function(item) {
         let index = this._valores.push(item) - 1;
         return index;
     }
@@ -36,7 +31,7 @@ class Lista {
          * @param   {Number} index 
          * @returns {Object} o elemento removido
          * */
-    remove(index) {
+    this.remove = function(index){
         return this._valores.splice(index, 1);
     }
 
@@ -46,7 +41,7 @@ class Lista {
          * @param   {Number} index 
          * @returns {Object} o elemento da lista
          * */
-    get(index) {
+    this.get = function(index) {
         return this._valores[index];
     }
 
@@ -55,7 +50,7 @@ class Lista {
          * @description retorna uma lista de elementos
          * @returns {[Object]} array de elementos da lista
          * */
-    getList() {
+    this.getList = function() {
         return this._valores;
     }
 
@@ -66,7 +61,7 @@ class Lista {
          * @returns {Number} index de um elemento da lista
          * @requires Object.equals o método equals deve ser implementado no elemento 
          * */
-    getIndexOf(item) {
+    this.getIndexOf = function(item) {
         let index = -1;
         this._valores.find((element, pos) => {
             if (element.equals(item)) {
@@ -81,9 +76,8 @@ class Lista {
          * @description retorna o tamanho da lista
          * @returns {Number} tamanho da lista
          * */
-    getCount() {
+    this.getCount = function() {
         return this._valores.length;
     }
-
 
 }
