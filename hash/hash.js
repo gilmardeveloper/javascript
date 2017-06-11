@@ -5,21 +5,16 @@
  */
 
 /**@class Hash*/
-class Hash {
+function Hash(){
 
-            /**@constructor */
-            constructor() {
-
-                this._hash = "";
-
-            }
+            this._hash = "";
 
             /**@method newHash
              * @description gera um novo hash
              * @param {String} txt
              * @returns {String} hash
              */
-            newHash(txt) {
+            this.newHash = function(txt) {
 
                 let count = 0;
                 let c = [];
