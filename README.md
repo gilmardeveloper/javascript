@@ -1,7 +1,7 @@
 # Biblioteca pessoal Javascript
 ### Coleção de arquivos javascript que representam classes genéricas
 
-## Bibliotecas disponíveis
+## Dowloads e Documentação
 
 * [Clone GitHub](https://github.com/gilmardeveloper/javascript.git) https://github.com/gilmardeveloper/javascript.git
 * [Dowload ZIP](https://github.com/gilmardeveloper/javascript/archive/master.zip)
