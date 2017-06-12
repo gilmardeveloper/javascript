@@ -21,9 +21,9 @@ function Lista() {
      * @returns {Number} index do elemento
      * */
     this.add = function(item) {
-        let index = this._valores.push(item) - 1;
+        var index = this._valores.push(item) - 1;
         return index;
-    }
+    };
 
     /*** 
          * @method remove
@@ -33,7 +33,7 @@ function Lista() {
          * */
     this.remove = function(index){
         return this._valores.splice(index, 1);
-    }
+    };
 
     /*** 
          * @method get
@@ -43,7 +43,7 @@ function Lista() {
          * */
     this.get = function(index) {
         return this._valores[index];
-    }
+    };
 
     /*** 
          * @method getList
@@ -52,7 +52,7 @@ function Lista() {
          * */
     this.getList = function() {
         return this._valores;
-    }
+    };
 
     /*** 
          * @method getIndexOf
@@ -62,15 +62,15 @@ function Lista() {
          * @requires Object.equals o método equals deve ser implementado no elemento 
          * */
     this.getIndexOf = function(item) {
-        let index = -1;
-        this._valores.find((element, pos) => {
+        var index = -1;
+        this._valores.find(function(element, pos){
             if (element.equals(item)) {
                 index = pos;
             }
         }, item);
 
         return index;
-    }
+    };
     /*** 
          * @method getCount 
          * @description retorna o tamanho da lista
@@ -78,6 +78,6 @@ function Lista() {
          * */
     this.getCount = function() {
         return this._valores.length;
-    }
+    };
 
 }
