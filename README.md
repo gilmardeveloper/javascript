@@ -22,7 +22,7 @@
     * getIndexOf()
     * getCount()
 3. Dowload
-    * [GitHub](docs/index.html)
+    * [GitHub](index.html)
 
 © 2017 Gilmar Carlos All rights reserved.
 
