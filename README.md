@@ -4,8 +4,8 @@
 ## Dowloads e Documentação
 
 * [Clone GitHub](https://github.com/gilmardeveloper/javascript.git) https://github.com/gilmardeveloper/javascript.git
-* [Dowload ZIP](https://github.com/gilmardeveloper/javascript/archive/master.zip)
-* [Dowload Documentação](https://github.com/gilmardeveloper/javascript/raw/master/dowloads/docs.zip)
+* [Download ZIP](https://github.com/gilmardeveloper/javascript/archive/master.zip)
+* [Download Documentação](https://github.com/gilmardeveloper/javascript/raw/master/dowloads/docs.zip)
 
 ## Bibliotecas disponíveis
 
@@ -18,8 +18,8 @@
 ### List                                                            
 É uma classe genérica que representa uma lista de elementos.
 
-1. [Documentação](https://github.com/gilmardeveloper/javascript/raw/master/dowloads/docs.zip)
-2. [Dowload](https://github.com/gilmardeveloper/javascript/raw/master/dowloads/collections.zip)
+1. [Documentação](https://github.com/gilmardeveloper/javascript/raw/master/downloads/docs.zip)
+2. [Download](https://github.com/gilmardeveloper/javascript/raw/master/downloads/collections.zip)
 3. CDN
    
    ```
@@ -31,8 +31,8 @@
 ### Controller                                                            
 É uma classe genérica que representa um controlador crud.
 
-1. [Documentação](https://github.com/gilmardeveloper/javascript/raw/master/dowloads/docs.zip)
-2. [Dowload](https://github.com/gilmardeveloper/javascript/raw/master/dowloads/controller.zip)
+1. [Documentação](https://github.com/gilmardeveloper/javascript/raw/master/downloads/docs.zip)
+2. [Download](https://github.com/gilmardeveloper/javascript/raw/master/downloads/controller.zip)
 3. CDN
    
    ```
@@ -44,8 +44,8 @@
 ### Hash                                                            
 Classe que gera um hash a partir de uma string
 
-1. [Documentação](https://github.com/gilmardeveloper/javascript/raw/master/dowloads/docs.zip)
-2. [Dowload](https://github.com/gilmardeveloper/javascript/raw/master/dowloads/hash.zip)
+1. [Documentação](https://github.com/gilmardeveloper/javascript/raw/master/downloads/docs.zip)
+2. [Download](https://github.com/gilmardeveloper/javascript/raw/master/downloads/hash.zip)
 3. CDN
    
    ```
