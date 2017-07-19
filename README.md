@@ -5,7 +5,7 @@
 
 * [Clone GitHub](https://github.com/gilmardeveloper/javascript.git) https://github.com/gilmardeveloper/javascript.git
 * [Download ZIP](https://github.com/gilmardeveloper/javascript/archive/master.zip)
-* [Download Documentação](https://github.com/gilmardeveloper/javascript/raw/master/dowloads/docs.zip)
+* [Download Documentação](https://github.com/gilmardeveloper/javascript/raw/master/downloads/docs.zip)
 
 ## Bibliotecas disponíveis
 
